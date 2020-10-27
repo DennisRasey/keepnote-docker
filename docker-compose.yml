@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  keepnote:
+    image: keepnote
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /home/drasey/docs/notes/keepnote/babbee/:/home/keepnote/babbee/
+      - /home/drasey/.config/keepnote:/home/keepnote/.config/keepnote
+    container_name: keepnote
+    environment:
+      - DISPLAY=unix$DISPLAY
+    entrypoint: keepnote babbee
+
