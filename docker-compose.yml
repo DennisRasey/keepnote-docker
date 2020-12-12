@@ -2,7 +2,7 @@ version: "3.7"
 services:
   keepnote:
     image: keepnote
-    container_name: keepnote
+    container_name: keepnote-slim
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ~/keepnote/my_notes/:/home/keepnote/my_notes/
