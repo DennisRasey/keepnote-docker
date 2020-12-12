@@ -6,7 +6,7 @@
 #	--name keepnote \
 #	keepnote
 
-FROM debian:stretch
+FROM debian:stretch-slim
 
 RUN \
     apt-get update && \
