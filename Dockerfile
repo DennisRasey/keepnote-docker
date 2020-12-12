@@ -8,7 +8,7 @@
 
 FROM debian:stretch
 
-RUN \ 
+RUN \
     apt-get update && \
     apt-get install -y --no-install-recommends \
     keepnote && \
@@ -23,3 +23,4 @@ WORKDIR $HOME
 USER keepnote
 
 ENTRYPOINT [ "keepnote" ]
+
