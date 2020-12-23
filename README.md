@@ -1,13 +1,21 @@
 [KeepNote](http://keepnote.org)
 ===============================
 
+## This is an attempt to dockerize keepnote
+
+#### Goals
+
+* ** Create a minimal image that runs keepnote **
+* ** create simple docker-compose file to launch keepnote **
+* ** simplify sharing notebooks/configs with (docker) host **
+
+
+
 **KeepNote is a note taking application that works on Windows, Linux, and MacOS X.** With KeepNote, you can store your class notes, TODO lists, research notes, journal entries, paper outlines, etc in a simple notebook hierarchy with rich-text formatting, images, and more. Using full-text search, you can retrieve any note for later reference.
 
 KeepNote is designed to be cross-platform (implemented in Python and PyGTK) and stores your notes in simple and easy to manipulate file formats (HTML and XML). Archiving and transferring your notes is as easy as zipping or copying a folder.
 
 Read more about KeepNote's [design philosophy](http://keepnote.org/manual/#philosophy).
-
-## This is an attempt to dockerize keepnote
 
 
 ## Features
