@@ -5,9 +5,9 @@
 
 #### Goals
 
-* ** Create a minimal image that runs keepnote **
-* ** create simple docker-compose file to launch keepnote **
-* ** simplify sharing notebooks/configs with (docker) host **
+* Create a minimal image that runs keepnote
+* create simple docker-compose file to launch keepnote
+* simplify sharing notebooks/configs with (docker) host
 
 
 
